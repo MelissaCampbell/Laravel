@@ -1,0 +1,66 @@
+
+:root 
+{
+	--dark-color: #1c1c1c;
+	--light-color:#ffffff;
+	--dark-grey-color:#333333;
+	--light-grey-color: #efefef;
+
+}
+
+
+ #letras-navbar
+{
+	color: var(--light-color);
+
+}
+.video-image-mask
+{
+	width: 185px;
+	height: 100px;
+	overflow: hidden;
+
+}
+
+.video-image-mask .video-image
+{
+	width: 105%;
+	margin-top: 4px;
+
+}
+.col
+{
+
+}
+
+.video-title
+{
+	font-weight: bold;
+	font-size: 20px;
+}
+
+
+#video-player
+{
+	width: 800px;
+	height: 400px;
+}
+
+.btn-filte
+{
+	display: block;
+	margin-top: 5px ;
+}
+
+#botonbuscar:hover
+{
+	background-color: #362d4d;
+	opacity: .9;
+	border: 0;
+}
+#botonbuscar
+{
+	color: var(--light-color);
+	background-color: #362d4d;
+	border: 0;
+}
